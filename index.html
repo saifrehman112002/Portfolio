@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link rel="icon" href="favicon.png" type="image/png">
     <script>
         emailjs.init("XEoLMu7tk7eveA2Q_");
       </script>      
@@ -127,13 +128,25 @@
                     </ul>
                 </div>
                 <div id="Languages" class="navbar-content">
-                    <p>React.js, Node.js, Next.js, JavaScript, Python</p>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>Next.js</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
                 </div>
                 <div id="Technology" class="navbar-content">
-                    <p>MySQL, Oracle SQL, MS SQL, MongoDB, Git</p>
+                    <li>MySQL</li>
+                    <li>Oracle SQL</li>
+                    <li>MS SQL</li>
+                    <li>MongoDB</li>
+                    <li>Git</li>
                 </div>
                 <div id="Others" class="navbar-content">
-                    <p>OOP, HTML, CSS, Tailwind CSS, MS Office</p>
+                    <li>OOP</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Tailwind CSS</li>
+                    <li>MS Office</li>
                 </div>
             </div>
         </div>
@@ -143,46 +156,38 @@
         <h2 class="heading">Projects</h2>
         <div class="box-container">
             <div class="box">
+                <h3>Noodles Website</h3>
                 <img class="img1" src="images/Noodles.png" alt="">
                 <img class="img2" src="images/Noodles-icon.png" alt="">
-                <h3>Noodles Website</h3>
-                <!-- <div class="stars">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                </div> -->
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure exercitationem laudantium nihil ducimus odio deserunt ratione? Enim voluptates voluptatibus nisi earum sint hic totam aliquid,
-                     fuga quisquam reprehenderit quis nam.</p>
+
+                <p>Noodles Doodle is a vibrant catering website showcasing a diverse menu of delectable noodle dishes. Designed to offer a 
+                    seamless user experience, it features sections for menu highlights, about us, and contact information, including an 
+                    interactive form for event inquiries.</p>
+                <div class="project-icons">
+                    <a href="https://github.com/saifrehman112002/Noodles-Website" target="_blank" class="icon-code" title="View Code">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://saifrehman112002.github.io/Noodles-Website/" target="_blank" class="icon-live" title="Live Website">
+                      <i class="fas fa-link"></i>
+                    </a>
+                </div>
             </div>
             <div class="box">
+                <h3>Biryani Website</h3>
                 <img class="img1" src="images/Biryani.png" alt="">
                 <img class="img2" src="images/Biryani-icon.png" alt="">
-                <h3>Biryani Website</h3>
-                <!-- <div class="stars">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                </div> -->
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure exercitationem laudantium nihil ducimus odio deserunt ratione? Enim voluptates voluptatibus nisi earum sint hic totam aliquid,
-                     fuga quisquam reprehenderit quis nam.</p>
-            </div>
-            <!-- <div class="box">
-                <img class="img1" src="images/girl3.avif" alt="">
-                <h3>najma</h3>
-                <div class="stars">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
+
+                <p>A responsive web application showcasing a customizable menu for a restaurant. This project includes interactive sections 
+                    for Biryani, Salad, and Beverages. The application features smooth scrolling, custom fonts, and dynamic content display.</p>
+                <div class="project-icons">
+                    <a href="https://github.com/saifrehman112002/Biryani-Website" target="_blank" class="icon-code" title="View Code">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://saifrehman112002.github.io/Biryani-Website/" target="_blank" class="icon-live" title="Live Website">
+                      <i class="fas fa-link"></i>
+                    </a>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure exercitationem laudantium nihil ducimus odio deserunt ratione? Enim voluptates voluptatibus nisi earum sint hic totam aliquid,
-                     fuga quisquam reprehenderit quis nam.</p>
-            </div> -->
+            </div>
         </div>
     </section>
 
@@ -191,13 +196,13 @@
         <div class="form-container">
             <form action="#" method="get" id="contact-form">
                 <div class="inputs">
-                    <input type="text" placeholder="full name" class="input" name="name">
-                    <input type="email" placeholder="email" class="input" name="email">
+                    <input type="text" placeholder="full name" class="input" name="name" required>
+                    <input type="email" placeholder="email" class="input" name="email" required>
                     <input type="number" placeholder="phone number" class="input" name="number">
-                    <input type="text" placeholder="subject" class="input" name="subject">
+                    <input type="text" placeholder="subject" class="input" name="subject" required>
                 </div>
                 <div class="text">
-                    <textarea placeholder="your message" name="message"></textarea>
+                    <textarea placeholder="your message" name="message" required></textarea>
                     <button type="submit" href="#" class="btn">send message</button>
                 </div>
             </form>

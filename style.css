@@ -354,7 +354,7 @@ section{
     margin: 1rem;
 }
 .about-me{
-    min-height: 100vh;
+    min-height: 110vh;
     background-color: var(--bg-color);
     /* padding: 5rem 5%; */
     /* align-items: center;
@@ -363,7 +363,7 @@ section{
 }
 .about-me-div{
     width: 100%;
-    min-height: 80vh;
+    min-height: 90vh;
     /* background-color: red; */
     display: flex;
 }
@@ -502,7 +502,7 @@ section{
     flex-wrap: wrap;
     /* align-items: center; */
     justify-content: space-evenly;
-    gap: 2rem;
+    gap: 4rem;
     width: 100%;
     margin: 2rem 0;
     /* background-color: white; */
@@ -537,6 +537,26 @@ section{
     border: .1rem solid var(--main-color);
     min-height: 50vh;
 }
+.project-icons {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.project-icons a {
+    margin: 0 0.5rem;
+    color: var(--main-color); /* Adjust color as needed */
+    text-decoration: none;
+    font-size: 2rem; /* Adjust size as needed */
+}
+.project-icons a:hover{
+    color: silver;
+}
+.box:hover .project-icons {
+    opacity: 1;
+}
 .projects .box-container .box h3{
     color: var(--text-color);
     font-size: 1.8rem;
@@ -545,12 +565,7 @@ section{
     color: var(--text-color);
     font-size: 1.2rem;
     line-height: 2;
-    text-transform: lowercase;
-}
-.projects .box-container .box .stars i{
-    color: gold;
-    font-size: 1rem;
-    margin: 1rem 0;
+    text-transform: capitalize;
 }
 
 .projects .box-container .box:hover{
@@ -625,6 +640,7 @@ section{
     border-radius: 3rem;
     background-color: var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
+    border: none;
 }
 .contact .form-container form .text .btn:hover{
     box-shadow: 0 0 25px var(--main-color),
@@ -675,10 +691,6 @@ section{
 .footer .credit p span{
     color: var(--main-color);
 }
-
-
-
-
 
 
 
@@ -795,11 +807,15 @@ section{
 .contact{
     padding: 1rem 0;
 }
+.about-me{
+    min-height: 170vh;
+}
 .about-me-div{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    min-height: 170vh;
 }
 .about-me-div .left-div{
     width: 75%;
