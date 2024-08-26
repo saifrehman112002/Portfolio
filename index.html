@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Responsive Portfolio Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        emailjs.init("XEoLMu7tk7eveA2Q_");
+      </script>      
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Muhammad <span>Saif ur rehman</span></a>
+        <div class="menu">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <nav class="navbar">
+            <a href="#Home">home</a>
+            <a href="#Education">education</a>
+            <a href="#About-me">about me</a>
+            <a href="#Projects">projects</a>
+            <a href="#Contact">contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="Home">
+        <div class="content">
+            <h1>hi, it's <span>Saif .</span></h1>
+            <h3 class="text-animation">i'm a <span></span></h3>
+            <p class="text">Recent Computer Science graduate with a passion for frontend development, specializing in React and modern web technologies. Experienced in building dynamic, responsive web applications using HTML, CSS, JavaScript, and Node.js. Eager to contribute to innovative projects and continually enhance my skills.</p>
+            <div class="icons">
+                <a href="www.linkedin.com/in/muhammad-saif-ur-rehman"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://github.com/saifrehman112002"><i class="fab fa-github" aria-hidden="true"></i>
+                <a href="https://www.instagram.com/saifrehman00/"><i class="fab fa-instagram" aria-hidden="true"></i>
+                <a href="https://www.facebook.com/profile.php?id=100004454355037"><i class="fab fa-facebook" aria-hidden="true"></i>
+            </div>
+            <div class="flex-btn">
+                <a href="SAIF_CV.pdf" class="btn hire" download="SAIF-CV.pdf">Download CV</a>
+                <a href="#Contact" class="btn">contact</a>
+            </div>
+        </div>
+        <img src="images/SAIF.jpg" alt="">
+    </section>
+
+    <section class="education" id="Education">
+        <h2 class="heading">education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018</div>
+                <div class="timeline-content">
+                    <h3>Matriculation</h3>
+                    <h4>St. Lawrence's High School</h4>
+                    <p>Completed matriculation in 2018 from St. Lawrence's High School, laying a strong academic foundation that fueled my passion for technology and coding.</p>   
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018 - 2020</div>
+                <div class="timeline-content">
+                    <h3>Intermediate</h3>
+                    <h4>Govt. College For Men Nazimabad</h4>
+                    <p>Passed intermediate in Pre-Engineering from Govt. College for Men Nazimabad in 2020, further honing my analytical and problem-solving skills.</p>   
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020 - 2024</div>
+                <div class="timeline-content">
+                    <h3>Bachelor's</h3>
+                    <h4>Usman Institute of Technology (NED)</h4>
+                    <p>Graduated with a Bachelor's degree in Computer Science in 2024 from Usman Institute of Technology, affiliated with NED, solidifying my expertise in software development and web technologies.</p>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-me" id="About-me">
+        <!-- <h2 class="heading">services</h2>
+        <div class="box-container">
+            <div class="box">
+                <h3>Testing</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Fugiat vel quibusdam necessitatibus repellendus. 
+                    Tempora atque totam debitis corporis similique ab?</p>
+                
+            </div>
+            <div class="box">
+                <h3>UI Design</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Fugiat vel quibusdam necessitatibus repellendus. 
+                    Tempora atque totam debitis corporis similique ab?</p>
+                
+            </div>
+            <div class="box">
+                <h3>Frontend Development</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Fugiat vel quibusdam necessitatibus repellendus. 
+                    Tempora atque totam debitis corporis similique ab?</p>
+                
+            </div>
+            <div class="box">
+                <h3>Backend Development</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Fugiat vel quibusdam necessitatibus repellendus. 
+                    Tempora atque totam debitis corporis similique ab?</p>
+                
+            </div>
+        </div> -->
+        <div class="about-me-div">
+            <div class="left-div">
+                <img src="images/about-me.avif">
+            </div>
+            <div class="right-div">
+                <h2 class="heading">About <span>me</span></h2>
+                <p class="text">I am a recent graduate from Usman Institute of Technology, affiliated with NED, where I completed my degree in Computer Science in 2024. With hands-on experience in HTML, CSS, and React, I have developed a strong foundation in web development and design. Throughout my academic journey, I have worked on several university projects where I utilized Node.js, MongoDB, and Python, further enhancing my skills in backend development.</p>
+                <br /><p class="text">I am passionate about creating dynamic and responsive web applications, and my interest in web development drives me to learn and improve continually. Recently, I completed an 80-hour course on React and ES6, offered by the Hazza Institute of Technology, which deepened my understanding of modern JavaScript frameworks and advanced development practices.</p>
+                <br /><p class="text">I am eager to apply my skills in a professional setting and contribute to innovative projects that push the boundaries of web technology.</p>
+                <div class="navbar">
+                    <ul class="drop">
+                        <li><a href="#" data-section="Languages">Languages</a></li>
+                        <li><a href="#" data-section="Technology">Technology</a></li>
+                        <li><a href="#" data-section="Others">Others</a></li>
+                    </ul>
+                </div>
+                <div id="Languages" class="navbar-content">
+                    <p>React.js, Node.js, Next.js, JavaScript, Python</p>
+                </div>
+                <div id="Technology" class="navbar-content">
+                    <p>MySQL, Oracle SQL, MS SQL, MongoDB, Git</p>
+                </div>
+                <div id="Others" class="navbar-content">
+                    <p>OOP, HTML, CSS, Tailwind CSS, MS Office</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="Projects">
+        <h2 class="heading">Projects</h2>
+        <div class="box-container">
+            <div class="box">
+                <img class="img1" src="images/Noodles.png" alt="">
+                <img class="img2" src="images/Noodles-icon.png" alt="">
+                <h3>Noodles Website</h3>
+                <!-- <div class="stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div> -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure exercitationem laudantium nihil ducimus odio deserunt ratione? Enim voluptates voluptatibus nisi earum sint hic totam aliquid,
+                     fuga quisquam reprehenderit quis nam.</p>
+            </div>
+            <div class="box">
+                <img class="img1" src="images/Biryani.png" alt="">
+                <img class="img2" src="images/Biryani-icon.png" alt="">
+                <h3>Biryani Website</h3>
+                <!-- <div class="stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div> -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure exercitationem laudantium nihil ducimus odio deserunt ratione? Enim voluptates voluptatibus nisi earum sint hic totam aliquid,
+                     fuga quisquam reprehenderit quis nam.</p>
+            </div>
+            <!-- <div class="box">
+                <img class="img1" src="images/girl3.avif" alt="">
+                <h3>najma</h3>
+                <div class="stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure exercitationem laudantium nihil ducimus odio deserunt ratione? Enim voluptates voluptatibus nisi earum sint hic totam aliquid,
+                     fuga quisquam reprehenderit quis nam.</p>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="contact" id="Contact">
+        <h2 class="heading">contact <span>me</span></h2>
+        <div class="form-container">
+            <form action="#" method="get" id="contact-form">
+                <div class="inputs">
+                    <input type="text" placeholder="full name" class="input" name="name">
+                    <input type="email" placeholder="email" class="input" name="email">
+                    <input type="number" placeholder="phone number" class="input" name="number">
+                    <input type="text" placeholder="subject" class="input" name="subject">
+                </div>
+                <div class="text">
+                    <textarea placeholder="your message" name="message"></textarea>
+                    <button type="submit" href="#" class="btn">send message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="icons">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+            <i class="fab fa-github" aria-hidden="true"></i>
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+        </div>
+        <nav class="navbar">
+            <a href="#Home">home</a>
+            <a href="#Education">education</a>
+            <a href="#About-me">about me</a>
+            <a href="#Projects">projects</a>
+            <a href="#Contact">contact</a>
+        </nav>
+        <div class="credit"><p><i class="fa fa-copyright" aria-hidden="true"></i> Muhammad Saif ur rehman <span>||</span> all rights reserved        </p></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
