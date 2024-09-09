@@ -350,7 +350,6 @@ section{
     font-size: 1.1rem;
     color: var(--text-color);
     line-height: 2;
-    text-transform: lowercase;
     margin: 1rem;
 }
 .about-me{
